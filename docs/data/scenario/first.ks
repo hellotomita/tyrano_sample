@@ -5,33 +5,33 @@
 [wait time=200]
 [freeimage layer="base"]
 
-「走るか寝るかするメロス」[l][r]
+「密室からの脱出」[l][r]
 
-メロスは激怒した。[l][r]
+「うう・・・」。[l][r]
 
-必ず、かの邪智暴虐の王を除かねばならぬと決意した。[l][r]
+気分が悪い朝だ。[l][r]
 
-(中略)[l][r]
+あれ、ここはどこだ。目覚めたその時から強烈な違和感があった。服は着ているが、スマホはない。[l][r]
 
-ああ、何もかも、ばかばかしい。私は、醜い裏切り者だ。どうとも、勝手にするがよい。やんぬる哉。[l][r]
-メロスは...[l][r]
+そこは、覚えのない部屋であった。扉には鍵がかかっている。はじめは混乱したが、徐々に状況を飲み込んできた。[l][r]
+ここから出ないといけない。[l][r]
 
-[link target=*tag_sleep] →寝る [endlink][r]
-[link target=*tag_run] →走る [endlink][r]
+[link target=*tag_search1]→ベッドを調べる。 [endlink][r]
+
+
 [s]
 
-*tag_sleep
+*tag_search1
 
 [cm]
 
-[bg storage=sleep.jpg time=500]
+[bg storage=ベッド.png time=500]
 
-メロスは死んだように深く眠った。[l][r]
-勇者は、ひどく赤面した。[r]
+何もない。[l][r]
 
-【 BAD END 】[l][cm]
+[link target=*tag_search2] →ベッドの下を調べる。 [endlink][r]
+[link target=*tag_action1]→ベッドをなぐる。 [endlink][r]
 
-[jump target=*start]
 
 *tag_run
 
