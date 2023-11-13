@@ -1,6 +1,6 @@
 *start
 
-[title name="走るか寝るかするメロス"]
+[title name="密室からの脱出"]
 [hidemenubutton]
 [wait time=200]
 [freeimage layer="base"]
