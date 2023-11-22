@@ -96,7 +96,7 @@
 
 [cm]
 
-[bg strage=朝.png time=500]
+[bg strage=朝.png time=300]
 
 チュンチュン。鳥が鳴いているのを聞いて朝だと気づいた。[l][r]
 昨日は暗かったが、明るくなってこの奇妙なガラス張りの部屋の周りが見え始めた...[l][r]
@@ -107,7 +107,7 @@
 ご飯あげないと」[l][r]
 [cm]
 
-「昨日捕まえたカブトムシに」[l][r]
+「昨日捕まえたカブトムシに」[l][cm]
 
 [jump target=*tag_me]
 
@@ -115,10 +115,10 @@
 
 [cm]
 
-[bg strage=おうち.mp4 time=0]
+[bg strage=虫かご.jpeg time=300]
 
 そう。私はカブトムシ。[l][r]
-昨晩、甘い匂いに誘われて罠に捕まってしまったんだっけ...[l][r]
+昨晩、甘い匂いに誘われて罠に捕まってしまったんだっけ...[l][cm]
 
 [jump target=*tag_exit]
 
@@ -133,6 +133,7 @@
 [s]
 [link target=*tag_fly]→飛ぶ[endlink][r]
 [link target=*tag_hide]→隠れる[endlink][r]
+[s]
 
 *tag_hide
 
