@@ -41,6 +41,9 @@
 *tag_noteat
 
 [cm]
+
+[bg storage=部屋.jpeg time=300]
+
 食べちゃだめだ。何が入っているか分からない。[l][r]
 食べちゃだめだ。食べちゃだめだ...[l][r]
 食べちゃ...だめだ...食べ...ちゃ...[l][r]
@@ -61,7 +64,7 @@
 
 [cm]
 
-[bg storage=.jpg time=500]
+[bg storage=部屋.jpeg time=300]
 
 美味しかった。[l][r]
 食べたら眠くなってきたな。[l][r]
@@ -106,18 +109,24 @@
 
 「昨日捕まえたカブトムシに」[l][r]
 
+[jump target=*tag_me]
+
+*tag_me
+
 [cm]
 
-[bg strage=おうち.mp4][r]
-
-[cm]
+[bg strage=おうち.mp4 time=0]
 
 そう。私はカブトムシ。[l][r]
 昨晩、甘い匂いに誘われて罠に捕まってしまったんだっけ...[l][r]
 
-[bg strage=昨晩.jpeg]
+[jump target=*tag_exit]
 
-[l][cm]
+*tag_exit
+
+[cm]
+
+[bg strage=虫かご.jpeg time=300]
 
 と、そのとき少年がカブトムシにゼリーをあげようと、飼育ケースに手を伸ばす。[l][r]
 今だ！[l][s]
@@ -153,6 +162,8 @@
 *tag_fly
 
 [cm]
+
+[bg target=空.jpg time=300]
 
 少年が飼育ケースの蓋を開けた瞬間に勢いよく羽を広げた。[l][r]
 「あっ」[l][r]
