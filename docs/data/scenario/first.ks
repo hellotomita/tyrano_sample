@@ -5,7 +5,7 @@
 [wait time=200]
 [freeimage layer="base"]
 
-「密室からの脱出」[l][r]
+『密室からの脱出』[l][r]
 
 「うう・・・」。[l][r]
 
@@ -52,6 +52,8 @@
 【 GAME OVER 】[l][r]
 コメント: ご飯を食べるのは大切だね！[l][cm]
 
+はじめに戻る[l][cm]
+
 [jump target=*start]
 
 
@@ -63,7 +65,7 @@
 
 美味しかった。[l][r]
 食べたら眠くなってきたな。[l][r]
-どうしよう...
+どうしよう...[l][r]
 [link target=*tag_sleep]→寝る[endlink][r]
 [link target=*tag_act]→出るためにもがく[endlink][r]
 [s]
@@ -82,14 +84,14 @@
 【 GAME OVER 】[l][r]
 コメント: 睡眠不足は判断を鈍らせるよ！ちゃんと寝よう。[l][cm]
 
+はじめに戻る[l][cm]
+
 [jump target=*start]
 
 
 *tag_sleep
 
 [cm]
-
-[bg strage= time=50]
 
 [bg strage= time=50]
 
